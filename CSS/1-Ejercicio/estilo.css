@@ -1,0 +1,48 @@
+/*selector universal*/
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+/*selector de etiqueta*/
+h1{
+	color:#2980b9;
+	text-align: center;
+}
+
+body{
+	background-color: #95a5a6;
+}
+
+hr{
+	border-color: #ffffff;
+}
+
+/*Selector de clases*/
+.verde{
+	border-color: #27ae60;
+}
+
+.izq{
+	text-align: left;
+}
+
+.der{
+	text-align: right;
+}
+
+.azul{
+	color: #2980b9;
+}
+
+/*selector multiple*/
+h3,h4,h5,h6{
+	color: #d35400;
+	font-size: 25px;
+	text-align: center;
+}
+
+/*selectores descendentes*/
+p > a{
+	color: #c0392b;
+}
