@@ -1,0 +1,55 @@
+/*selector universal*/
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+/*selector de etiqueta*/
+h1{
+	color:#FF69B4;
+	text-align: center;
+}
+
+body{
+	background-color: #FFE4B5;
+}
+
+hr{
+	border-color: #ffffff;
+}
+
+/*Selector de clases*/
+.verde{
+	border-color: #ae2797;
+}
+
+.izq{
+	text-align: center;
+}
+
+.der{
+	text-align: center;
+}
+
+.azul{
+	color: #7129b9;
+    
+}
+
+/*selector multiple*/
+h3,h4,h5,h6{
+	color: #d30051;
+	font-size: 25px;
+	text-align: center;
+}
+
+/*selectores descendentes*/
+p > a{
+	color: #c0392b;
+}
+.formato{
+    width: 200px; height: 200px;
+    display:block;
+    margin:auto;
+    
+}
